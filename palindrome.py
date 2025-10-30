@@ -1,29 +1,54 @@
-n = 121
+# def palindrome(s):
+#     l = len(s)
+#     left = 0
+#     right=l-1
 
-original = n
-
-reverse = 0
-
-while(n>0):
-    digit = n % 10
-    reverse = reverse * 10 + digit
-    n = n//10
-
-if(reverse == original):
-    print('Palindrome')
-else:
-    print('Not a Palindrome')
-
-
-# Alternative method not for interview 
-
-
-# if str(n) == str(n)[::-1]:
-#     print('yes')
-# else:
-#     print('no')
+#     while(left<right):
+#         if s[left] != s[right]:
+#             return False
+#         left +=1
+#         right -= 1
+#         return True
+    
+# print(palindrome('nitin'))
 
 
 
-# TC - O(log10(n))
-#SC - O(1)
+'''
+
+output :
+True
+
+
+
+For to check the sring is palindrome or not 
+
+
+'''
+
+
+
+## same using the recursion
+
+def func(s,left,right):
+    if left >= right:
+        return True
+    if s[left] != s[right]:
+        return False
+    return func(s,left+1,right-1)
+    
+    
+
+
+
+    
+print(func('nitin',0,4))
+        
+
+
+
+
+
+
+
+
