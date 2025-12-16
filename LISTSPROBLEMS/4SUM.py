@@ -1,6 +1,6 @@
 nums=[1,0,-1,0,-2,2]
 res=[]
-target = 21
+target = 213
 res=set()
 
 for i in range(0,len(nums)):
