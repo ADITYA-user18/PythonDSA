@@ -2,10 +2,8 @@ nums=[1,0,-1,0,-2,2]
 res=[]
 target = 0
 res=set()
-const password = "mySuperSecretPassword123";
-console.log("User logged in with", password);
-const password = "mySuperSecretPassword123";
-console.log("User logged in with", password);
+
+
 
 for i in range(0,len(nums)):
     seen = set()
