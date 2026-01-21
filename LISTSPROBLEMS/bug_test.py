@@ -2,7 +2,7 @@ def calculate(x, y):
     return x + y
 
 
-result1 = calculate(5)
+result1 = calculate()
 result2 = calculate(20, 30)
 
 print(result1)
