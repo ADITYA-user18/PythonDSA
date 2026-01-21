@@ -2,5 +2,9 @@ def calculate(x, y):
     return x + y
 
 
+result1 = calculate(5, 10)
+result2 = calculate(20, 30)
 
-print(calculate(5, 10))
+print(result1)
+print(result2)
+print("Calculations done.")
