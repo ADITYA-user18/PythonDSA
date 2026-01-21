@@ -3,6 +3,4 @@ def calculate(x, y):
 
 
 
-calculate(5, 10)
-calculate(20, 30)
-print("Calculations done.")
+print(calculate(5, 10))
