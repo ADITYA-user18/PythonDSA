@@ -1,6 +1,6 @@
 nums=[1,0,-1,0,-2,2]
 res=[]
-target = 20
+target = 55
 res=set()
 
 
